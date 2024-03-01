@@ -18,6 +18,8 @@ O **Concello de Santiago** asinou hoxe o **V Pacto Local polo Emprego** con repr
   <figcaption style="display: block; padding: .5rem;background-color: rgb(216 125 14 / 5%); font-size: .8em">Asinantes do V Pacto polo Emprego</figcaption>
 </figure>
 
+Se queres podes [descargar a infografía neste ligazón](/pactoempregosantiago.pdf).
+
 
 A firma correu a cargo de *Xan Duro*, **concelleiro de Promoción Económica** en funcións por mor da situación de baixa médica da responsable do departamento, **María Rozas**. O edil salientou que:
 
