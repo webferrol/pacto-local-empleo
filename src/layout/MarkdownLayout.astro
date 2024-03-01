@@ -1,0 +1,30 @@
+---
+import MainLayout from "@/layout/BaseLayout.astro";
+import Markdown from "@components/utils/Markdown.astro";
+import Footer from "@components/sections/Footer.astro";
+import Header from "@components/sections/HeaderBlog.astro";
+
+
+const { frontmatter } = Astro.props;
+---
+
+<MainLayout
+title={frontmatter.title}
+description={frontmatter.description}
+ogImage={frontmatter.ogImage}
+>
+<Header />
+<div class="max-w-[1040px] mx-auto">
+
+    <Markdown
+      title={frontmatter.title}
+      description={frontmatter.description}
+      pubDate={frontmatter.pubDate}
+      email={frontmatter.email}
+      author={frontmatter.author}
+    >
+      <slot />
+    </Markdown>
+    <Footer />
+  </div>
+</MainLayout>

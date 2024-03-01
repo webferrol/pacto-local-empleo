@@ -1,0 +1,42 @@
+---
+import MainLayout from '@/layout/BaseLayout.astro'
+import Header from "@components/sections/HeaderBlog.astro";
+import Bento from '@components/utils/Bento.astro'
+import BentoItem from '@components/utils/BentoItem.astro'
+import { sortedPosts, tags } from '@/helpers/getPosts'
+
+const allPosts = sortedPosts.map(post => ({slug: post.slug, data: post.data }) )
+---
+
+<MainLayout
+  title="Publicaciones sobre programación"
+  description="Novas sobre o Pacto polo emprego en Santaigo de Compostela."
+>
+<Header />
+<main>
+     <div class="max-w-[1040px] mx-auto">
+         <Bento title="Entradas">   
+            {
+              allPosts.map((post, index) => {
+                const { title, description, url = '' } = post.data
+                let className = index === 0 
+                    ? 'md:col-span-6' 
+                    : index === 1 
+                      ? 'md:col-span-4' 
+                      : 'md:col-span-5'
+                return (
+                  <BentoItem title={title} description={description} url={`/novas/${post.slug}`} class={className}>
+                    <div 
+                      slot="image"
+                      class="absolute z-10 left-0 top-0 bottom-0 w-full h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out bg-black/10 bg-cover bg-no-repeat bg-blend-luminosity opacity-90"
+                      style={url && `background-image: url(${url})`}>               
+                    </div>
+                  </BentoItem>
+                )
+              })
+            }
+          </Bento>
+    </div>
+ </main>
+  
+</MainLayout>

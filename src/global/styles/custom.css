@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+    .link {
+        @apply w-fit font-thin text-primary/20 hover:text-primary underline transition-all ease-in-out delay-75 duration-500 py-1 px-2 text-black rounded-sm
+    }
+   
+    /*Effects*/
+    .silver{
+        @apply bg-gradient-to-r from-slate-400 to-slate-50 text-primary/90 bg-clip-text;
+    }
+
+    /*Writing*/
+    .text-title{
+        @apply silver text-2xl font-medium md:text-3xl;
+    }
+
+    /*Spacing*/
+    .mb-section{
+        @apply mb-12;
+    }
+}
+

@@ -1,0 +1,53 @@
+html {
+    font-family: 'Onest', system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Onest', system-ui, sans-serif;
+    min-height: 10dvh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+    line-height: 1.6 !important;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+:focus {
+    outline: none;
+}
+
+/* Deshabilitar el sombreado al hacer clic en elementos en dispositivos móviles */
+*:active {
+    -webkit-tap-highlight-color: transparent; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    -moz-tap-highlight-color: transparent; /* Para navegadores basados en Gecko, como Firefox */
+    -ms-tap-highlight-color: transparent; /* Para Internet Explorer */
+    tap-highlight-color: transparent; /* Propiedad genérica */
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}

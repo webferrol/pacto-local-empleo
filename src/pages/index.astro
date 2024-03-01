@@ -1,0 +1,29 @@
+---
+import BaseLayout from "@/layout/BaseLayout.astro";
+import FormulacionEstratexica from "@components/sections/FormulacionEstratexica.astro";
+import Hero from "@components/sections/Hero.astro";
+import Lineas from "@components/sections/LineasEstrategicas.astro";
+import Summary from "@components/sections/Summary.astro";
+import Structure from "@components/sections/Structure.astro";
+import Footer from "@components/sections/Footer.astro";
+import Logos from "@components/sections/Logos.astro";
+import Novas from "@components/sections/Novas.astro";
+import VideoYoutube from "@components/ui/VideoYoutube.astro";
+---
+
+<BaseLayout>
+	<main class="max-w-[1800px] mx-auto px-4">
+		<Hero />
+		<div class="max-w-[1040px] mx-auto">
+			<Summary />
+			<Novas>				
+				<VideoYoutube className="mx-auto my-14 aspect-video w-full" />
+			</Novas>
+			<FormulacionEstratexica />
+			<Lineas />
+			<Structure />
+			<Logos />
+			<Footer />
+		</div>
+	</main>
+</BaseLayout>

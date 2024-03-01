@@ -1,0 +1,34 @@
+---
+import Concello from "@icons/Concello.astro";
+
+interface Props {
+	textLink?: string;
+	link?: string;
+	ogImage?: string;
+}
+
+const {
+	textLink = "Pacto Local polo Emprego",
+    link = "/"
+} = Astro.props;
+---
+<header class="block w-full mb-4">
+    <h1>
+        <a
+            class="block w-full text-white text-[2rem] font-extrabold uppercase text-center md:leading-[4rem] hover:brightness-150"
+            href={link}
+        >
+            <Concello class="inline-block h-12 fill-white" /> {textLink}
+        </a>
+    </h1>
+</header>
+
+  <style>
+    h1 {
+        background-color: hsl(341.95deg 100% 26.27% / 90%);
+    }
+
+    h1  a {
+        font-size: clamp(1.944rem, 1.7229rem + 1.1053vi, 2.4414rem);
+    }
+</style>

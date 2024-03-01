@@ -1,0 +1,49 @@
+---
+import MainLayout from '@/layout/BaseLayout.astro'
+import Bento from '@components/utils/Bento.astro'
+import BentoItem from '@components/utils/BentoItem.astro'
+
+
+const allPosts = await Astro.glob('./emprego/*.md')
+---
+
+<MainLayout
+  title="Publicaciones sobre programación"
+  description="React, javascript, css, html."
+>
+  <main class="text-text dark:text-text-dark p-5">
+    <div class="max-w-[1040px] mx-auto">
+      <header class="mb-1">
+        <h1>
+          <a
+            class="block silver text-[2rem] font-extrabold uppercase text-center md:text-[3rem] md:leading-[4rem] hover:brightness-150"
+            href="/"
+          >
+            Pacto local do emprego
+          </a>
+        </h1>
+      </header>
+    <Bento title="Entradas">   
+      {
+        allPosts.map((post, index) => {
+          const { title, description, url = '' } = post.frontmatter
+          let className = index === 0 
+              ? 'md:col-span-6' 
+              : index === 1 
+                ? 'md:col-span-4' 
+                : 'md:col-span-5'
+          return (
+            <BentoItem title={title} description={description} url={post.url} class={className}>
+              <div 
+                slot="image"
+                class="absolute z-10 left-0 top-0 bottom-0 w-full h-full group-hover:scale-110 transition-scale duration-1000 ease-in-out bg-black/10 bg-cover bg-no-repeat bg-blend-luminosity opacity-90"
+                style={url && `background-image: url(${url})`}>               
+              </div>
+            </BentoItem>
+          )
+        })
+      }
+    </Bento>
+    </div>
+  </main>
+</MainLayout>

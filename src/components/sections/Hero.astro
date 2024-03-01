@@ -1,0 +1,64 @@
+---
+import Download from "@icons/Download.astro";
+import PinIco from "@icons/Pin.astro";
+---
+
+<header class="mb-20">
+  <h1 class="silver mb-10 text-[3rem] font-extrabold uppercase text-center md:text-[5rem] md:leading-[7rem] md:text-start">   
+      Pacto local do emprego
+  </h1>
+  <figure class="relative">
+    <img
+      width="2000"
+      height="598"
+      class="w-full object-cover rounded-br-[3rem] md:rounded-br-[10rem]"
+      src="images/another/concello.webp"
+      alt="Santiago de Compostela"
+    />
+    <div
+      class="border-zinc-950 absolute w-[5rem] right-[20%] bottom-0 translate-y-1/2 z-20 md:w-[8rem]"
+    >
+      <a
+        href="/pactoempregosantiago.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="go-down-btn bg-primary hover:brightness-150"
+        title="Podes descargar o Pacto polo emprego aquí"
+      >
+        <div
+          class="absolute left-0 -top-1 w-full h-full flex justify-center items-center"
+        >
+          <Download class="text-white" />
+        </div>
+        <PinIco />
+      </a>
+    </div>
+    <figcaption class="silver uppercase font-medium text-xs md:text-base">
+      Santiago de Compostela
+    </figcaption>
+  </figure>
+</header>
+
+<style>
+  .go-down-btn {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0.2em;
+    border-radius: 50%;
+    box-shadow:
+      0 0 0 5px #ec0047,
+      inset 0 0 0 20px rgb(245, 243, 243);
+  }
+
+  .go-down-btn svg {
+    position: relative;
+    z-index: -1;
+    display: block;
+  }
+
+  .go-down-btn text {
+    font-size: 11px;
+    transform-origin: center;
+  }
+</style>

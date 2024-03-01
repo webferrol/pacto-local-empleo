@@ -1,0 +1,27 @@
+---
+import Arrow from '@icons/Arrow.astro';
+
+interface Props{
+    src : string,
+    alt : string,
+    title : string,
+    href : string,
+}
+const {src,alt , title , href = "#"} = Astro.props;
+---
+<a class="block relative w-full h-full text-inherit cursor-pointer group" href={href}>
+    <div class="absolute w-full h-full flex justify-center items-center hover:hidden">
+        <span class="inline-block w-full p-1 bg-slate-50/50 text-center text-base md:text-lg text-primary">{title}</span>
+    </div>
+    <img class="w-full h-full object-cover" src={src} alt={alt}>
+    <div class="bg-slate-500 bg-opacity-80 absolute inset-0 flex justify-center items-center flex-col gap-1 backdrop-blur-md translate-y-full group-hover:translate-y-0 transition-transform md:gap-2">
+        <h3 class="font-medium text-center">
+            {title}
+        </h3>
+        <div class="flex items-center gap-1 text-base md:text-lg">
+            <!-- <img class="w-8 opacity-0" src="svg/arrow.svg" alt="arrow"> -->
+            <span>Ler máis</span>
+           <Arrow />
+        </div>
+    </div>
+</a>

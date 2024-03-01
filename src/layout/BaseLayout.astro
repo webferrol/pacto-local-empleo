@@ -1,0 +1,45 @@
+---
+import "@/global/styles/defaults.css";
+import "@/global/styles/custom.css";
+import "@fontsource/onest";
+// import { ViewTransitions } from "astro:transitions"
+
+interface Props {
+	title?: string | number;
+	description?: string;
+	ogImage?: string;
+}
+
+const {
+	title = "V Pacto Local polo Emprego 2024-2027",
+	description = "O V Pacto Local polo Emprego 2024-2027 é un compromiso activo do departamento de emprego do concello de santiago de compostela, por facer do emprego un elemento para a efectiva integración e inclusión social da cidadanía.",
+	ogImage,
+} = Astro.props;
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta property="og:title" content={`${title}`} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content={ogImage ?? "logo.svg"} />
+		<link rel="shortcut icon" href="/logo.svg" type="image/x-icon">		<meta name="description" content={description} />
+		<title>{title}</title>
+		<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+		<!-- <ViewTransitions /> -->
+	</head>
+	<body class="text-text bg-white">
+		<!-- Background gradient -->
+		<div
+			class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"
+		>
+			<div
+				class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-fuchsia-400 opacity-20 blur-[100px]"
+			>
+			</div>
+		</div>
+		<slot />
+	</body>
+</html>
