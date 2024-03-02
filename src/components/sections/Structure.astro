@@ -2,159 +2,269 @@
 import Circle from '@icons/StructureCircle.astro'
 ---
 
-<section class="grid gap-4 justify-between content-center md:grid-cols-10 md:gap-8 mb-section mb-8">
-    <header class="md:col-span-5">
-        <h2 class="text-title">
-            Estructura
-        </h2>
-        <p class="py-2 text-sm opacity-80 md:text-base">
-           Defínense <strong>4 liñas estratéxicas</strong> concretadas en <strong>17 Obxectivos Estratéxicos</strong> desenvolvidos a través de <strong>78 metas</strong>.
-        </p>
-        <ol class="grid gap-2 md:gap-12 text-sm opacity-80 md:text-base">
-            <li class="border-neutral-600 border-b-[1px]">
-                <details class="p-4 [&_svg]:open:-rotate-180">
-                    <summary class="flex justify-between cursor-pointer list-none items-center gap-4">
-                        <h3 class="text-primary font-bold">4 Liñas estratéxicas de actuación (<abbr class="font-semibold no-underline" title="Liña Estratéxica de actuación">LE</abbr>)</h3>
-                        <div>
-                            <!-- notice here, we added our own triangle/arrow svg -->
-                            <svg class="rotate-0 transform text-primary transition-all duration-300" fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                              <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                          </div>
-                    </summary>
-                    <ul>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego">
-                                LE1. Apoiar ás persoas para o emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/impulsar-desenvolvemento-economico-emprego">
-                                LE2. Impulsar o desenvolvemento económico e o emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/transicion-modelo-productivo">
-                                LE3. Transición do modelo produtivo cara a sostibilidade, o emprego e o ben común.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico">
-                                LE4. Rede de Axentes e Colaboración público – privada.
-                            </a>
-                        </li>
-                    </ul>
-                </details>
+<section
+  class='grid gap-4 justify-between content-center md:grid-cols-10 md:gap-8 mb-section mb-8'
+>
+  <header class='md:col-span-5'>
+    <h2 class='text-title'>Estructura</h2>
+    <p class='py-2 text-sm opacity-80 md:text-base'>
+      Defínense <strong>4 liñas estratéxicas</strong> concretadas en <strong
+        >17 Obxectivos Estratéxicos</strong
+      > desenvolvidos a través de <strong>78 metas</strong>.
+    </p>
+    <ol class='grid gap-2 md:gap-12 text-sm opacity-80 md:text-base'>
+      <li class='border-neutral-600 border-b-[1px]'>
+        <details class='p-4 [&_svg]:open:-rotate-180'>
+          <summary
+            class='flex justify-between cursor-pointer list-none items-center gap-4'
+          >
+            <h3 class='text-primary font-bold'>
+              4 Liñas estratéxicas de actuación (<abbr
+                class='font-semibold no-underline'
+                title='Liña Estratéxica de actuación'>LE</abbr
+              >)
+            </h3>
+            <svg
+              class='block rotate-0 transform text-primary transition-all duration-300'
+              fill='none'
+              height='20'
+              width='20'
+              stroke='currentColor'
+              stroke-linecap='round'
+              stroke-linejoin='round'
+              stroke-width='2'
+              viewBox='0 0 24 24'
+            >
+              <polyline points='6 9 12 15 18 9'></polyline>
+            </svg>
+          </summary>
+          <ul>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego'
+              >
+                LE1. Apoiar ás persoas para o emprego.
+              </a>
             </li>
-            <li class="border-neutral-600 border-b-[1px]">
-                <details class="p-4 [&_svg]:open:-rotate-180">
-                    <summary class="flex justify-between items-center cursor-pointer list-none gap-4">
-                        <h3 class="text-primary font-bold">17 Obxetivos estratéxicos (<abbr class="font-semibold no-underline" title="Obxetivos Estratéxicos">OE</abbr>)</h3>
-                        <div>
-                            <!-- notice here, we added our own triangle/arrow svg -->
-                            <svg class="rotate-0 transform text-primary transition-all duration-300" fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                              <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                          </div>
-                    </summary>
-                    <ul>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego#OE1">
-                                OE1. Plan de orientación laboral para o emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego#OE2">
-                                OE2. Plan de formación para emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego#OE3">
-                                OE3. Oportunidades de emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego#OE4">
-                                OE4. Igualdade de oportunidades no acceso ao emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/apoiar-persoas-emprego#OE5">
-                                OE5. Emprendemento.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/impulsar-desenvolvemento-economico-emprego#OE6">
-                                OE6. Mellora integral das áreas industriais da cidade e a ampliación do solo industrial dispoñible.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/impulsar-desenvolvemento-economico-emprego#OE7">
-                                OE7. Reactivación e diversificación de sectores produtivos e apoio aos sectores tradicionais.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/impulsar-desenvolvemento-economico-emprego#OE8">
-                                OE8. Oficina de atracción de inversións e acompañamento empresarial
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico#OE14">
-                                OE9. Conciliación e fomento da responsabilidade social corporativa.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/transicion-modelo-productivo#OE10">
-                                OE10. Fomentar a I+D orientada a aproveitar as vantaxes da sociedade do coñecemento.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/transicion-modelo-productivo#OE11">
-                                OE11. Formar ao persoal de R.R.H.H. en novas habilidades asociadas á economía do coñecemento e a unha economía máis baseada nos servizos.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/transicion-modelo-productivo#OE12">
-                                OE12. Orientar o investimento público cara as transformacións necesarias para posibilitar a transición cara a economía de servizos e do coñecemento.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/transicion-modelo-productivo#OE13">
-                                OE13. Desenvolvemento de Hubs sectoriais como estratexia de cooperación interempresarial.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico#OE14">
-                                OE14. Ampliar a participación do tecido cívico e das entidades representativas da economía social no desenvolvemento do Plan Local polo Emprego.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico#OE15">
-                                OE15. Impulsar a coordinación, o traballo en rede e os instrumentos de xestión colaborativa.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico#OE16">
-                                OE16. Realizar un proceso de seguimento e avaliación do plan coa participación dos axentes que incorpore sistemas de obtención e análise dos indicadores relevantes.
-                            </a>
-                        </li>
-                        <li class="p-2">
-                            <a class="text-primary hover:underline" href="/emprego/rede-axentes-colaboracion-publico#OE17">
-                                OE17. Mellora continua das competencias do persoal técnico municipal e das entidades que forman parte da rede local polo emprego.
-                            </a>
-                        </li>             
-                    </ul>
-                </details>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/impulsar-desenvolvemento-economico-emprego'
+              >
+                LE2. Impulsar o desenvolvemento económico e o emprego.
+              </a>
             </li>
-            <li class="border-neutral-600 border-b-[1px]">
-                <h3 class="px-4 py-4 text-primary font-bold">78 Metas</h3>
-
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/transicion-modelo-productivo'
+              >
+                LE3. Transición do modelo produtivo cara a sostibilidade, o
+                emprego e o ben común.
+              </a>
             </li>
-        </ol>
-    </header>
-    <div class="md:col-span-5">
-        <Circle id="cyrcle" />
-    </div>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico'
+              >
+                LE4. Rede de Axentes e Colaboración público – privada.
+              </a>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li class='border-neutral-600 border-b-[1px]'>
+        <details class='p-4 [&_svg]:open:-rotate-180'>
+          <summary
+            class='flex justify-between items-center cursor-pointer list-none gap-4'
+          >
+            <h3 class='text-primary font-bold'>
+              17 Obxetivos estratéxicos (<abbr
+                class='font-semibold no-underline'
+                title='Obxetivos Estratéxicos'>OE</abbr
+              >)
+            </h3>
+            <svg
+              class='block rotate-0 transform text-primary transition-all duration-300'
+              fill='none'
+              height='20'
+              width='20'
+              stroke='currentColor'
+              stroke-linecap='round'
+              stroke-linejoin='round'
+              stroke-width='2'
+              viewBox='0 0 24 24'
+            >
+              <polyline points='6 9 12 15 18 9'></polyline>
+            </svg>
+          </summary>
+          <ul>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego#OE1'
+              >
+                OE1. Plan de orientación laboral para o emprego.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego#OE2'
+              >
+                OE2. Plan de formación para emprego.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego#OE3'
+              >
+                OE3. Oportunidades de emprego.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego#OE4'
+              >
+                OE4. Igualdade de oportunidades no acceso ao emprego.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/apoiar-persoas-emprego#OE5'
+              >
+                OE5. Emprendemento.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/impulsar-desenvolvemento-economico-emprego#OE6'
+              >
+                OE6. Mellora integral das áreas industriais da cidade e a
+                ampliación do solo industrial dispoñible.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/impulsar-desenvolvemento-economico-emprego#OE7'
+              >
+                OE7. Reactivación e diversificación de sectores produtivos e
+                apoio aos sectores tradicionais.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/impulsar-desenvolvemento-economico-emprego#OE8'
+              >
+                OE8. Oficina de atracción de inversións e acompañamento
+                empresarial
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico#OE14'
+              >
+                OE9. Conciliación e fomento da responsabilidade social
+                corporativa.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/transicion-modelo-productivo#OE10'
+              >
+                OE10. Fomentar a I+D orientada a aproveitar as vantaxes da
+                sociedade do coñecemento.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/transicion-modelo-productivo#OE11'
+              >
+                OE11. Formar ao persoal de R.R.H.H. en novas habilidades
+                asociadas á economía do coñecemento e a unha economía máis
+                baseada nos servizos.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/transicion-modelo-productivo#OE12'
+              >
+                OE12. Orientar o investimento público cara as transformacións
+                necesarias para posibilitar a transición cara a economía de
+                servizos e do coñecemento.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/transicion-modelo-productivo#OE13'
+              >
+                OE13. Desenvolvemento de Hubs sectoriais como estratexia de
+                cooperación interempresarial.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico#OE14'
+              >
+                OE14. Ampliar a participación do tecido cívico e das entidades
+                representativas da economía social no desenvolvemento do Plan
+                Local polo Emprego.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico#OE15'
+              >
+                OE15. Impulsar a coordinación, o traballo en rede e os
+                instrumentos de xestión colaborativa.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico#OE16'
+              >
+                OE16. Realizar un proceso de seguimento e avaliación do plan coa
+                participación dos axentes que incorpore sistemas de obtención e
+                análise dos indicadores relevantes.
+              </a>
+            </li>
+            <li class='p-2'>
+              <a
+                class='text-primary hover:underline'
+                href='/emprego/rede-axentes-colaboracion-publico#OE17'
+              >
+                OE17. Mellora continua das competencias do persoal técnico
+                municipal e das entidades que forman parte da rede local polo
+                emprego.
+              </a>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li class='border-neutral-600 border-b-[1px]'>
+        <h3 class='px-4 py-4 text-primary font-bold'>78 Metas</h3>
+      </li>
+    </ol>
+  </header>
+  <div class='md:col-span-5'>
+    <Circle id='cyrcle' />
+  </div>
 </section>
 <!-- 
 <style>

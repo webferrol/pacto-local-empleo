@@ -48,38 +48,38 @@ const { open } = Astro.props;
 			aboutJSON.map((e, i) => {
 				return (
 					<li class="border-neutral-600 border-b-[1px]">
-						<header
-							class="cursor-pointer [&>*]:pointer-events-none opacity-80 hover:opacity-100"
-							data-status={`${i === open ? "enabled" : "disabled"}`}
-						>
-							<h3 class="flex justify-between items-start text-primary font-extralight text-xl md:text-lg">
-								{e.title}
-								<div>
-									<Arrow
-										class="arrow transition-[rotate] h-6 w-6 md:h-5 md:w-5 text-primary"
-										alt="arrow"
-										style={`${
-										i === open
-											? "rotate : 90deg;"
-											: "rotate : 0deg;"
-										}`}
-									/>
+						<article>
+							<header
+								class="cursor-pointer [&>*]:pointer-events-none opacity-80 hover:opacity-100"
+								data-status={`${i === open ? "enabled" : "disabled"}`}
+							>
+								<h3 class="flex justify-between items-start text-primary font-extralight text-xl md:text-lg">
+									{e.title}
+									
+										<Arrow
+											class="block arrow transition-[rotate] h-6 w-6 md:h-5 md:w-5 text-primary"
+											style={`${
+											i === open
+												? "rotate : 90deg;"
+												: "rotate : 0deg;"
+											}`}
+										/>
+									
+								</h3>							
+							</header>
+							<div
+								class="grid transition-all"
+								style={`${
+									i === open
+										? "grid-template-rows: 1fr;"
+										: "grid-template-rows: 0fr;"
+								}`}
+							>
+								<div class="h-full overflow-hidden">
+									<div class="mb-4 pt-2 text-sm opacity-80 md:text-base" set:html={e.description} />
 								</div>
-							</h3>
-							
-						</header>
-						<div
-							class="grid transition-all"
-							style={`${
-								i === open
-									? "grid-template-rows: 1fr;"
-									: "grid-template-rows: 0fr;"
-							}`}
-						>
-							<div class="h-full overflow-hidden">
-								<div class="mb-4 pt-2 text-sm opacity-80 md:text-base" set:html={e.description} />
 							</div>
-						</div>
+						</article>
 					</li>
 				);
 			})

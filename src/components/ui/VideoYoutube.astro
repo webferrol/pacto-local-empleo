@@ -1,14 +1,22 @@
 ---
-const { id = 'y_2VlYtbr84', title = 'Título del vídeo', className = 'mx-auto my-14 max-w-screen-md' } = Astro.props
+interface Props {
+	className?: String
+}
+
+const {
+  className = 'mx-auto my-14 max-w-screen-md',
+} = Astro.props
 ---
-<div class={className}>
-	<video 
-		src="/videos/firma-pacto/firma.mp4"
-		controls=""
-		poster="/images/firma-pacto/asinantes.jpg"
-	>
-	O teu navegador non pode reproducir o <code>video mp4</code>.
-	Podes ver o contido do <a href="https://youtu.be/y_2VlYtbr84?si=muvvPN3XQTGN3J-9">Asinado o V Pacto Local polo Emprego de Santiago neste enlace.</a>
-	
-	</video>
+
+<div class={`${className}`}>
+  <video
+    src='/videos/firma-pacto/firma.mp4'
+    controls=''
+    poster='/images/firma-pacto/asinantes.jpg'
+  >
+    O teu navegador non pode reproducir o <code>video mp4</code>. Podes ver o
+    contido do <a href='https://youtu.be/y_2VlYtbr84?si=muvvPN3XQTGN3J-9'
+      >Asinado o V Pacto Local polo Emprego de Santiago neste enlace.</a
+    >
+  </video>
 </div>

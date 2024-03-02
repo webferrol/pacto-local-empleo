@@ -1,23 +1,22 @@
 ---
-import AboutAcordeon from "@components/utils/AboutAccordion.astro"
+import EstrategiaAcordeon from '@components/utils/EstrategiaAccordion.astro'
 import Pyramid from '@icons/Pyramid.astro'
 ---
 
-<section class="mb-section">
-    <header class="mb-8 grid gap-4 md:grid-cols-2 md:gap-8">
-        <h2 class="text-title">
-            Formulación estratéxica
-        </h2>
-        <p class="opacity-80">
-            
-Na infografía presentamos as capas de formulación organizadas en base á súa natureza estratéxica e operativa. A pirámide reflicte capas xerárquicas desta formulación.
-        </p>
-    </header>
-    <section class="grid gap-8 md:grid-cols-2 items-center">
-        <AboutAcordeon />
-        <!-- <div class="w-full aspect-square rounded-br-[10rem] overflow-hidden"> -->
-            <!-- <img class="w-full h-full object-contain" src="images/piramide.svg" alt="Principios"> -->
-            <Pyramid class="w-full h-full object-contain" />
-        <!-- </div> -->
-    </section>
+<section class='mb-section'>
+  <header class='mb-8 grid gap-4 md:grid-cols-2 md:gap-8'>
+    <h2 class='text-title'>Formulación estratéxica</h2>
+    <p class='opacity-80'>
+      Na infografía presentamos as capas de formulación organizadas en base á
+      súa natureza estratéxica e operativa. A pirámide reflicte capas
+      xerárquicas desta formulación.
+    </p>
+  </header>
+  <div class='grid gap-8 md:grid-cols-2 items-center'>
+    <EstrategiaAcordeon />
+    <!-- <div class="w-full aspect-square rounded-br-[10rem] overflow-hidden"> -->
+    <!-- <img class="w-full h-full object-contain" src="images/piramide.svg" alt="Principios"> -->
+    <Pyramid class='w-full h-full object-contain' />
+    <!-- </div> -->
+  </div>
 </section>
