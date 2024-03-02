@@ -2,7 +2,7 @@
 import "@/global/styles/defaults.css";
 import "@/global/styles/custom.css";
 import "@fontsource/onest";
-// import { ViewTransitions } from "astro:transitions"
+import { ViewTransitions } from "astro:transitions"
 
 interface Props {
 	title?: string | number;
@@ -25,10 +25,10 @@ const {
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content={ogImage ?? "logo.svg"} />
-		<link rel="shortcut icon" href="/logo.svg" type="image/x-icon">		<meta name="description" content={description} />
+		<link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+		<meta name="description" content={description} />
 		<title>{title}</title>
-		<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
-		<!-- <ViewTransitions /> -->
+		<ViewTransitions />
 	</head>
 	<body class="text-text bg-white">
 		<!-- Background gradient -->

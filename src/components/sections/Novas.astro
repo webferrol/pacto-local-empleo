@@ -1,22 +1,23 @@
 ---
 import Link from '@components/ui/Link.astro'
 ---
-<section class="mb-section rounded silver font-extrabold">
-    <header class="mb-8 grid gap-4 md:grid-cols-2 md:gap-8">
+<section class="relative grid gap-4 md:grid-cols-2 md:gap-8 items-center mb-section rounded font-extrabold">
+    <header>
         <h2 class="text-title">
             Novas
         </h2>
-        <div class="text-sm opacity-80 md:text-base">
-            <strong class="block mb-4" id="concello-text">
-                O Concello de Santiago asinou hoxe o V Pacto Local polo Emprego
-            </strong>
-            <Link
-                id='concello-link'
-                labelledby='concello-link concello-text'
-                href='/novas/asinado-v-pacto-emprego' />          
-        </div>
+        <section>
+            <slot />
+        </section>
     </header>
-    <section class="grid gap-2 items-center">
-        <slot />
-    </section>
+    <div class="text-sm opacity-80 md:text-base" id="concello-text">
+        <time class="absolute top-0 right-0" datetime="2024-02-28">28 de Febreiro</time>
+        <p class="mb-4">
+            O <em class="silver">Concello de Santiago</em> asinou hoxe o <strong class="silver">V Pacto Local polo Emprego</strong> con representantes da <em class="underline">Universidade</em>, a <em class="underline">Cámara de Comercio</em>, a <em class="underline">Asociación Empresarial do Tambre</em>, <em class="underline">Hostelería Compostela</em>, <em class="underline">Hostalaría.gal</em>, a <em class="underline">Plataforma polo Emprego</em>, e os sindicatos <em class="underline">UXT</em> e <em class="underline">Comisións Obreiras</em>.
+        </p>
+        <Link
+            id='concello-link'
+            labelledby='concello-link concello-text'
+            href='/novas/asinado-v-pacto-emprego' />          
+    </div>
 </section>
