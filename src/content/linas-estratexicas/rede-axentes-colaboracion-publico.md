@@ -1,7 +1,6 @@
 ---
-layout: '@/layout/MarkdownLayout.astro'
 title: 'Rede de Axentes e Colaboración público'
-pubDate: 24-02-23
+pubDate: 2024-02-23
 description: 'Fortalecer o traballo en rede e a colaboración público–privada para contribuír ao desenvolvemento dos obxectivos recollidos no Pacto Local polo Emprego.'
 email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'

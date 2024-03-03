@@ -1,7 +1,6 @@
 ---
-layout: '@/layout/MarkdownLayout.astro'
 title: 'Transición do modelo produtivo cara a sostibilidade, o emprego e o ben común'
-pubDate: 24-02-23
+pubDate: 2024-02-23
 description: 'O plan pretende transformar o sistema produtivo cara a unha economía ecolóxica, dixital, resiliente e mellor adaptada aos retos actuais e futuros a través dos Fondos Next Generation UE.'
 email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'

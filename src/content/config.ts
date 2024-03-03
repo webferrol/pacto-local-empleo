@@ -1,26 +1,20 @@
 // Import utilities from `astro:content`
-import { z, defineCollection } from "astro:content"
-// Define a `type` and `schema` for each collection+
+import { defineCollection } from "astro:content"
+// Schemas
+import { novasSchema, linasEstratexicasSchema } from "@/schemas"
 
-const docSchema = z.object({
-    title: z.string(),
-    email: z.string(),
-    pubDate: z.date(),
-    description: z.string(),
-    author: z.string(),
-url: z.string(),
-    image: z.object({
-        url: z.string(),
-        alt: z.string(),
-    }).optional(),
-    tags: z.array(z.string()),
-})
+
 
 const postsCollection = defineCollection({
     type: 'content',
-    schema: docSchema
+    schema: novasSchema
+})
+const linas = defineCollection({
+    type: 'content',
+    schema: linasEstratexicasSchema
 })
 // Export a single `collections` object to register your collection(s)
 export const collections = {
   novas: postsCollection,
+  'linas-estratexicas': linas
 }

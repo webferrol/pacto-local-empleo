@@ -1,7 +1,6 @@
 ---
-layout: '@/layout/MarkdownLayout.astro'
 title: 'Impulsar o desenvolvemento económico e o emprego'
-pubDate: 24-02-23
+pubDate: 2024-02-23
 description: 'Liña estratéxica que prentende fortalecer a economía local e centre os seus esforzos na mellora das infraestruturas industriais, e o impulso da  competitividade e a  produtividade empresarial.'
 email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'

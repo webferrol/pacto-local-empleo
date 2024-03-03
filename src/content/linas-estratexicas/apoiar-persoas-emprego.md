@@ -1,9 +1,8 @@
 ---
-layout: '@/layout/MarkdownLayout.astro'
 title: 'Apoiar ás persoas para o emprego'
-pubDate: 24-02-23
+pubDate: 2024-02-23
 description: 'Esta liña estratéxica pretende desenvolver novas vías de colaboración co Servizo Público de Emprego de Galicia, que permitan impulsar, en Santiago, un Plan integral de emprego.'
-email: 'xurxo@webferrol.com'
+email: '@'
 ogImage: 'https://webferrol.netlify.app/javascript.png'
 url: '/images/emprego-apoio.webp'
 author: 'Emprego. Santiago de Compostela'
