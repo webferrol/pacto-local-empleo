@@ -1,86 +1,41 @@
 ---
-import aboutJSON from "@/data/about.json";
-import Arrow from "@icons/Arrow.astro";
-
-interface Props {
-	open?: number;
-}
-const { open } = Astro.props;
+import formulacionEstratexica from "@/data/formulacion-estratexica.json";
 ---
 
-<script>
-	function loadAccordion () {
-		const accordion = document.getElementById("acordeon");
-		if (!accordion) throw new ReferenceError();
-	
-		accordion.addEventListener("click", (e) => {
-			const target = e.target as HTMLElement;
-			const dataset = { ...target.dataset };
-	
-			const content = target.nextElementSibling as HTMLElement;
-			const arrow = target.querySelector(".arrow") as HTMLElement;
-	
-			if (!arrow || !content) return
-	
-			switch (dataset.status) {
-				case "disabled":
-					content.style.gridTemplateRows = "1fr";
-					target.dataset.status = "enabled";
-					arrow.style.rotate = "90deg";
-					break;
-				case "enabled":
-					content.style.gridTemplateRows = "0fr";
-					target.dataset.status = "disabled";
-					arrow.style.rotate = "0deg";
-					break;
-				default:
-					break;
-			}
-		});
-	}
-
-	// document.addEventListener('astro:page-load', loadAccordion)
-	loadAccordion()
-</script>
-<div>
-	<ul id="acordeon" class="flex items-center flex-col gap-6 md:gap-2">
+<ol class='grid gap-2 text-sm opacity-80 md:text-base'>
 		{
-			aboutJSON.map((e, i) => {
+			formulacionEstratexica.map((e, i) => {
 				return (
-					<li class="border-neutral-600 border-b-[1px]">
-						<article>
-							<header
-								class="cursor-pointer [&>*]:pointer-events-none opacity-80 hover:opacity-100"
-								data-status={`${i === open ? "enabled" : "disabled"}`}
-							>
-								<h3 class="flex justify-between items-start text-primary font-extralight text-xl md:text-lg">
-									{e.title}
+				<li class='border-neutral-600 border-b-[1px]'>
+					<details class='p-4 [&_svg]:open:-rotate-180'>
+						<summary class='flex justify-between cursor-pointer list-none items-center gap-4'>
+							<h3 class='text-primary font-bold'>
+								{e.title}
+							</h3>
+							<svg
+								class='block rotate-0 transform text-primary transition-all duration-300'
+								fill='none'
+								height='20'
+								width='20'
+								stroke='currentColor'
+								stroke-linecap='round'
+								stroke-linejoin='round'
+								stroke-width='2'
+								viewBox='0 0 24 24'
+								>
+							<polyline points='6 9 12 15 18 9'></polyline>
+							</svg>
+						</summary>
 									
-										<Arrow
-											class="block arrow transition-[rotate] h-6 w-6 md:h-5 md:w-5 text-primary"
-											style={`${
-											i === open
-												? "rotate : 90deg;"
-												: "rotate : 0deg;"
-											}`}
-										/>
-									
-								</h3>							
-							</header>
-							<div
-								class="grid transition-all"
-								style={`${
-									i === open
-										? "grid-template-rows: 1fr;"
-										: "grid-template-rows: 0fr;"
-								}`}
-							>
-								<div class="h-full overflow-hidden">
-									<div class="mb-4 pt-2 text-sm opacity-80 md:text-base" set:html={e.description} />
-								</div>
+						<div
+							class="grid transition-all"
+						>
+							<div class="h-full">
+								<div class="text-sm opacity-80 md:text-base" set:html={e.description} />
 							</div>
-						</article>
-					</li>
+						</div>
+					</details>
+				</li>
 				);
 			})
 		}
