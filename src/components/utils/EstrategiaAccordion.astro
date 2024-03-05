@@ -1,43 +1,24 @@
 ---
-import formulacionEstratexica from "@/data/formulacion-estratexica.json";
+import Item from '@components/ui/DetailsItem.astro'
+import formulacionEstratexica from '@/data/formulacion-estratexica.json'
 ---
 
-<ol class='grid gap-2 text-sm opacity-80 md:text-base'>
-		{
-			formulacionEstratexica.map((e, i) => {
-				return (
-				<li class='border-neutral-600 border-b-[1px]'>
-					<details class='p-4 [&_svg]:open:-rotate-180'>
-						<summary class='flex justify-between cursor-pointer list-none items-center gap-4'>
-							<h3 class='text-primary font-bold'>
-								{e.title}
-							</h3>
-							<svg
-								class='block rotate-0 transform text-primary transition-all duration-300'
-								fill='none'
-								height='20'
-								width='20'
-								stroke='currentColor'
-								stroke-linecap='round'
-								stroke-linejoin='round'
-								stroke-width='2'
-								viewBox='0 0 24 24'
-								>
-							<polyline points='6 9 12 15 18 9'></polyline>
-							</svg>
-						</summary>
-									
+<ol class="grid gap-2 text-sm opacity-80 md:text-base">
+	{
+		formulacionEstratexica.map((e, i) => {
+			return (
+				<Item>
+					<h3 slot="summary" class="text-primary font-bold">
+						{e.title}
+					</h3>
+					<div slot="content" class="h-full">
 						<div
-							class="grid transition-all"
-						>
-							<div class="h-full">
-								<div class="text-sm opacity-80 md:text-base" set:html={e.description} />
-							</div>
-						</div>
-					</details>
-				</li>
-				);
-			})
-		}
-	</ul>
-</div>
+							class="text-sm opacity-80 md:text-base"
+							set:html={e.description}
+						/>
+					</div>
+				</Item>
+			)
+		})
+	}
+</ol>
