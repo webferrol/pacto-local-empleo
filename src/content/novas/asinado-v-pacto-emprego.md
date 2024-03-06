@@ -25,119 +25,119 @@ O **Concello de Santiago** asinou hoxe o **V Pacto Local polo Emprego** con repr
 		</div>
 		<!-- Item 2 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 3 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 4 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 5 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 6 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 7 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_7.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_7.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 8 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_8.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_8.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 9 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_9.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_9.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 10 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_10.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_10.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 11 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_11.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_11.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 12 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_12.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_12.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 13 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_13.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_13.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 14 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_14.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_14.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 15 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_15.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_15.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 16 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_16.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_16.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 17 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_17.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_17.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 18 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_18.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_18.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 19 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_19.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_19.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 20 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_20.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_20.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 21 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_21.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_21.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 22 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_22.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_22.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 23 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_23.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_23.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 24 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_24.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_24.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 25 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_25.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_25.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 26 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_26.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_26.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 27 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_27.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_27.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 28 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_28.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_28.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 29 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_29.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_29.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 		<!-- Item 30 -->
 		<div class="hidden duration-700 ease-in-out" data-carousel-item>
-			<img src="/images/firma-pacto/asinantes_30.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+			<img loading="lazy" src="/images/firma-pacto/asinantes_30.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 		</div>
 	</div>
 	<!-- Slider controls -->
