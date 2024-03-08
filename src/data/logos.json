@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "text": "Concello de Santiago de Compostela",
+        "href": "http://www.santiagodecompostela.gal/",
+        "fileName": "concello.svg",
+        "alt": "Participante da firma Concello de Santiago de Compostela"
+    },
+    {
+        "id": 1,
+        "text": "Universidade de Santiago de Compostela",
+        "href": "https://www.usc.gal/gl",
+        "fileName": "usc.webp",
+        "alt": "Participante da firma Universidade de Santiago de Compostela"
+    },
+    {
+        "id": 2,
+        "text": "Cámara de Santiago de Compostela",
+        "href": "https://www.camaracompostela.com/",
+        "fileName": "camara.webp",
+        "alt": "Participante da firma Cámara de Santiago de Compostela"
+    },
+    {
+        "id": 3,
+        "text": "Asociación Área Empresarial do Tambre",
+        "href": "https://www.poligonotambre.com/",
+        "fileName": "aaet.webp",
+        "alt": "Participante da firmaAsociación Área Empresarial do Tambre"
+    },
+    {
+        "id": 4,
+        "text": "Asociación Hostelería Compostelana",
+        "href": "http://santiagohosteleria.gal/",
+        "fileName": "hosteleria-compostelana.webp",
+        "alt": "Participante da firma Asociación Hostelería Compostelana"
+    },
+    {
+        "id": 5,
+        "text": "Hostalaria.gal",
+        "href": "https://hostalaria.gal/",
+        "fileName": "hostalaria.webp",
+        "alt": "Participante da firma Hostalaria.gal"
+    },
+    {
+        "id": 6,
+        "text": "CCOO",
+        "href": "https://www.ccoo.es/",
+        "fileName": "ccoo-barbanza.webp",
+        "alt": "Participante da firma CCOO"
+    },
+    {
+        "id": 7,
+        "text": "UGT",
+        "href": "https://www.ugt.es/",
+        "fileName": "ugt-barbanza.webp",
+        "alt": "Participante da firma UGT"
+    },
+    {
+        "id": 8,
+        "text": "Asociación plataforma polo emprego",
+        "href": "https://www.plataformapoloemprego.org/",
+        "fileName": "asociacion-plataforma-polo-emprego.webp",
+        "alt": "Participante da firma Asociación plataforma polo emprego"
+    }
+]
