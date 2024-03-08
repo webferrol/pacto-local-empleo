@@ -1,51 +1,21 @@
 ---
 import Concello from '@icons/Concello.astro'
+import sponsors from '@/data/logos.json'
 ---
-<div class="mb-section pt-20 flex flex-wrap justify-center items-center gap-5 md:gap-10">
-    <figure>
-        <a href="http://www.santiagodecompostela.gal/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <Concello  class="block h-16 sm:h-24 object-cover" />
-        </a>
-        <figcaption class="-indent-[9999px]">Santiago de Compostela</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.usc.gal/gl" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/usc.webp" title="Universidade de Santiago de Compostela" alt="Logo de Universidade de Santiago de Compostela" class="block h-12 sm:h-16 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">Universidade de Santiago de Compostela</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.camaracompostela.com/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/camara.webp" title="Cámara de Santiago de Compostela" alt="Logo de Cámara de Santiago de Compostela" class="block h-16 sm:h-24 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">Cámara de Santiago de Compostela</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.poligonotambre.com/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/aaet.webp" title="Asociación Área Empresarial do Tambre" alt="Logo de Asociación Área Empresarial do Tambre" class="block h-12 sm:h-16 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">Asociación Área Empresarial do Tambre</figcaption>
-    </figure>
-    <figure>
-        <a href="http://santiagohosteleria.gal/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/hosteleria-compostelana.webp" title="Asociación Hostelería Compostelana" alt="Logo de Asociación Hostelería Compostelana" class="block h-14 sm:h-20 object-cover"/></a>
-            <figcaption class="-indent-[9999px]">Asociación Hostelería Compostelana</figcaption>
-    </figure>
-    <figure>
-        <a href="https://hostalaria.gal/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/hostalaria.webp" title="Hostalaria.gal" alt="Logo de Asociación Empresarial da Restauración, Aloxamento e Turismo de Compostela e Comarcas" class="block h-10 sm:h-16 object-cover"/></a>
-            <figcaption class="-indent-[9999px]">Hostalaria.gal</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.ccoo.es/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-        <img src="/images/logos/ccoo-barbanza.webp" title="CCOO" alt="Logo de CCOO" class="block h-14 sm:h-20 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">CCOO</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.ugt.es/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/ugt-barbanza.webp" title="UGT" alt="Logo de UGT" class="block h-8 sm:h-12 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">UGT</figcaption>
-    </figure>
-    <figure>
-        <a href="https://www.plataformapoloemprego.org/" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 hover:opacity-50 transition-all">
-            <img src="/images/logos/asociacion-plataforma-polo-emprego.webp" title="Asociación plataforma polo emprego" alt="Logo de Asociación plataforma polo emprego" class="block h-12 sm:h-16 object-cover"/></a>
-        <figcaption class="-indent-[9999px]">Asociación plataforma polo emprego</figcaption>
-    </figure>
+<div class="mb-section pt-20 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-4 gap-y-8 justify-center place-content-center">
+    {
+        sponsors.map(({alt, fileName, href, text}) => (
+            <figure class="shadow-inner">
+                <a href={href} target="_blank" rel="noopener noreferrer" class="block p-4 hover:scale-105 hover:opacity-50 transition-all">
+                    <img src={`/images/logos/${fileName}`} title={text} alt={alt} class="block mx-auto h-16 object-fill"/></a>
+                <figcaption class="absolute -indent-[9999px]">{text}</figcaption>
+            </figure>
+        ))
+    }
 </div>
+
+<style>
+    figure {
+        clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    }
+</style>
