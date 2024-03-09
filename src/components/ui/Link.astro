@@ -1,25 +1,42 @@
 ---
-import Concello from '@icons/Concello.astro'
-
 interface Props {
-    text?: string,
-    href: string,
-    id?: string,
-    labelledby?: string
+    text?: string;
+    href: string;
+    id?: string;
+    labelledby?: string;
+    isBlank?: boolean;
 }
 
-const { text = 'Ler máis', href, id='', labelledby='' } = Astro.props
+const { text = "Ler máis", href, id = "", labelledby = "", isBlank = false } = Astro.props
+
+const targetProperties = {
+    "target": isBlank ? '_blank' : '_self',
+    "rel": isBlank ? 'noreferrer noopener' : ''
+}
+
 ---
 
-<a  
-    href={href} 
-    class="inline-flex items-center justify-center p-5 text-base font-medium text-gray-900 rounded-lg bg-primary/10 hover:text-gray-900 hover:bg-primary/25"
+<a
+    {...targetProperties}
+    href={href}
+    class="inline-flex items-center justify-center p-5 text-white bg-primary hover:brightness-150 font-medium rounded-lg text-sm px-5 py-2.5 text-center gap-x-2 me-2 mb-2"
     aria-labelledby={labelledby}
-    id={id}  
+    id={id}
 >
-    <Concello class="h-8 pr-5" />                                              
-    <span class="w-full">{text}</span>
-    <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    <slot name="icon" />
+    <span class="w-full uppercase whitespace-nowrap">{text}</span>
+    <svg
+        class="w-4 h-4 ms-2 rtl:rotate-180"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 14 10"
+    >
+        <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9"></path>
     </svg>
-</a> 
+</a>

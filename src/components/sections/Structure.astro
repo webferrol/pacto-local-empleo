@@ -1,10 +1,11 @@
 ---
 import Item from '@components/ui/DetailsItem.astro'
-import DownloadButton from '@/components/ui/DownloadLink.astro'
+import Link from '@/components/ui/Link.astro'
 import Circle from '@icons/StructureCircle.astro'
 ---
 
 <section
+  id="structucture"
   class='grid gap-4 justify-between content-center md:grid-cols-10 md:gap-8 mb-section mb-8'
 >
   <header class='flex flex-col gap-y-4 justify-center md:col-span-5'>
@@ -231,7 +232,14 @@ import Circle from '@icons/StructureCircle.astro'
       </Item>
     </ol>
     <div class="mt-4 text-center">
-      <DownloadButton text="Descargar pacto local do emprego" href='/pactoempregosantiago.pdf' />
+      <Link
+            isBlank
+            id='structure-link'
+            labelledby='structure-link structure'
+            text='Descargar pacto local do emprego'
+            href='/pactoempregosantiago.pdf'>
+            <svg slot="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"><path stroke="none" d="M0 0h24v24H0z"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"/></svg>
+        </Link>
     </div>
   </header>
   <div class='md:col-span-5'>
