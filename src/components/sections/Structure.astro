@@ -1,32 +1,35 @@
 ---
 import Item from '@components/ui/DetailsItem.astro'
+import DownloadButton from '@/components/ui/DownloadLink.astro'
 import Circle from '@icons/StructureCircle.astro'
 ---
 
 <section
   class='grid gap-4 justify-between content-center md:grid-cols-10 md:gap-8 mb-section mb-8'
 >
-  <header class='md:col-span-5'>
-    <h2 class='text-title'>Estructura</h2>
-    <p class='py-2 text-sm opacity-80 md:text-base'>
-      Defínense <strong>4 liñas estratéxicas</strong> concretadas en <strong
-        >17 Obxectivos Estratéxicos</strong
-      > desenvolvidos a través de <strong>78 metas</strong>.
-    </p>
-    <ol class='grid gap-2 md:gap-12 text-sm opacity-80 md:text-base'>
+  <header class='flex flex-col gap-y-4 justify-center md:col-span-5'>
+    <div>
+      <h2 class='text-title'>Estructura</h2>
+      <p class='py-2 text-sm opacity-80 md:text-base'>
+        Defínense <strong>4 liñas estratéxicas</strong> concretadas en <strong
+          >17 Obxectivos Estratéxicos</strong
+        > desenvolvidos a través de <strong>78 metas</strong>.
+      </p>
+    </div>
+    <ol class='grid gap-2 text-sm opacity-80 md:text-base'>
       <Item>
         <h3 slot="summary" class='text-primary font-bold'>
           4 Liñas estratéxicas de actuación (<abbr
-            class='font-semibold no-underline'
-            title='Liña Estratéxica de actuación'>LE</abbr
+          class='font-semibold no-underline'
+          title='Liña Estratéxica de actuación'>LE</abbr
           >)
         </h3>
-        <ul slot="content">
+        <ul slot="content" role="navigation">
           <li class='p-2'>
             <a
-              class='text-primary hover:underline'
+            class='text-primary hover:underline'
               href='/linas-estratexicas/apoiar-persoas-emprego'
-            >
+              >
               LE1. Apoiar ás persoas para o emprego.
             </a>
           </li>
@@ -40,8 +43,8 @@ import Circle from '@icons/StructureCircle.astro'
           </li>
           <li class='p-2'>
             <a
-              class='text-primary hover:underline'
-              href='/linas-estratexicas/transicion-modelo-productivo'
+            class='text-primary hover:underline'
+            href='/linas-estratexicas/transicion-modelo-productivo'
             >
               LE3. Transición do modelo produtivo cara a sostibilidade, o
               emprego e o ben común.
@@ -83,9 +86,9 @@ import Circle from '@icons/StructureCircle.astro'
           </li>
           <li class='p-2'>
             <a
-              class='text-primary hover:underline'
+            class='text-primary hover:underline'
               href='/linas-estratexicas/apoiar-persoas-emprego/&#35;OE3'
-            >
+              >
               OE3. Oportunidades de emprego.
             </a>
           </li>
@@ -93,7 +96,7 @@ import Circle from '@icons/StructureCircle.astro'
             <a
               class='text-primary hover:underline'
               href='/linas-estratexicas/apoiar-persoas-emprego/&#35;OE4'
-            >
+              >
               OE4. Igualdade de oportunidades no acceso ao emprego.
             </a>
           </li>
@@ -109,7 +112,7 @@ import Circle from '@icons/StructureCircle.astro'
             <a
               class='text-primary hover:underline'
               href='/linas-estratexicas/impulsar-desenvolvemento-economico-emprego/&#35;OE6'
-            >
+              >
               OE6. Mellora integral das áreas industriais da cidade e a
               ampliación do solo industrial dispoñible.
             </a>
@@ -128,7 +131,7 @@ import Circle from '@icons/StructureCircle.astro'
               class='text-primary hover:underline'
               href='/linas-estratexicas/impulsar-desenvolvemento-economico-emprego/&#35;OE8'
             >
-              OE8. Oficina de atracción de inversións e acompañamento
+            OE8. Oficina de atracción de inversións e acompañamento
               empresarial
             </a>
           </li>
@@ -137,7 +140,7 @@ import Circle from '@icons/StructureCircle.astro'
               class='text-primary hover:underline'
               href='/linas-estratexicas/rede-axentes-colaboracion-publico/&#35;OE14'
             >
-              OE9. Conciliación e fomento da responsabilidade social
+            OE9. Conciliación e fomento da responsabilidade social
               corporativa.
             </a>
           </li>
@@ -175,9 +178,9 @@ import Circle from '@icons/StructureCircle.astro'
               class='text-primary hover:underline'
               href='/linas-estratexicas/transicion-modelo-productivo/&#35;OE13'
             >
-              OE13. Desenvolvemento de Hubs sectoriais como estratexia de
-              cooperación interempresarial.
-            </a>
+            OE13. Desenvolvemento de Hubs sectoriais como estratexia de
+            cooperación interempresarial.
+          </a>
           </li>
           <li class='p-2'>
             <a
@@ -200,8 +203,8 @@ import Circle from '@icons/StructureCircle.astro'
           </li>
           <li class='p-2'>
             <a
-              class='text-primary hover:underline'
-              href='/linas-estratexicas/rede-axentes-colaboracion-publico/&#35;OE16'
+            class='text-primary hover:underline'
+            href='/linas-estratexicas/rede-axentes-colaboracion-publico/&#35;OE16'
             >
               OE16. Realizar un proceso de seguimento e avaliación do plan coa
               participación dos axentes que incorpore sistemas de obtención e
@@ -221,14 +224,17 @@ import Circle from '@icons/StructureCircle.astro'
         </ul>
       </Item>
       <Item>
-        <h3 slot="summary" class='px-4 py-4 text-primary font-bold'>78 Metas</h3>
+        <h3 slot="summary" class='text-primary font-bold'>78 Metas</h3>
         <div slot="content">
           Como diximos con anterioridade en resposta ao momento anterior dentro de cada obxectivo estratéxico desenvólvense unha serie de metas que hai que alcanzar e que se describen e detallan claramente en cada unha delas.
         </div>
       </Item>
     </ol>
+    <div class="mt-4 text-center">
+      <DownloadButton text="Descargar pacto local do emprego" href='/pactoempregosantiago.pdf' />
+    </div>
   </header>
   <div class='md:col-span-5'>
-    <Circle class="m-auto max-w-lg" id='cyrcle' />
+    <Circle id='cyrcle' />
   </div>
 </section>
