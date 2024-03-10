@@ -13,9 +13,8 @@ tags: ['emprego']
 
 O **Concello de Santiago** asinou hoxe o **V Pacto Local polo Emprego** con representantes da _Universidade_, a _Cámara de Comercio_, a _Asociación Empresarial do Tambre_, _Hostelería Compostela_, _Hostalaría.gal_, a _Plataforma polo Emprego_, e os sindicatos _UXT_ e _Comisións Obreiras_.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
-<figure style="relative w-full">
+<figure class="relative w-full">
 	<div id="animation-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
 	 <div class="relative h-56 overflow-hidden md:h-96">
