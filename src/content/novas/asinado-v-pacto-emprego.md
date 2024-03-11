@@ -3,8 +3,8 @@ title: 'Asinado o V Pacto Local polo Emprego de Santiago'
 pubDate: 2024-02-28
 description: 'O Concello de Santiago asinou hoxe o V Pacto Local polo Emprego con representantes da Universidade. Ler máis.'
 email: '--'
-ogImage: '/images/firma-pacto/firmantes.webp'
-url: '/images/firma-pacto/firmantes.webp'
+ogImage: '/images/firma-pacto/asinantes.webp'
+url: '/images/firma-pacto/asinantes.webp'
 author: 'Pacto de emprego de Santiago de Compostela'
 tags: ['emprego']
 ---
