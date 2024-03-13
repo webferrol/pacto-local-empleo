@@ -6,7 +6,7 @@ import sponsors from '@/data/logos.json'
         sponsors.map(({alt, fileName, href, text}) => (
             <figure class="shadow-inner">
                 <a href={href} target="_blank" rel="noopener noreferrer" class="block p-4 hover:scale-105 hover:opacity-50 transition-all">
-                    <img src={`/images/logos/${fileName}`} title={text} alt={alt} class="block mx-auto h-16 object-fill"/></a>
+                    <img src={`/images/logos/${fileName}`} title={text} alt={alt} class="block mx-auto h-16 object-contain"/></a>
                 <figcaption class="absolute -indent-[9999px]">{text}</figcaption>
             </figure>
         ))
