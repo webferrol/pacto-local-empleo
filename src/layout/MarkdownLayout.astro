@@ -112,17 +112,19 @@ const { frontmatter } = Astro.props;
   }
   .mark-down blockquote {
     position: relative;
-    border-left: 3px solid rgb(1 255 112 / 10%);
     padding-left: 1rem;
   }
 
   .mark-down blockquote::before {
-    content: "“";
+    content: "";
     position: absolute;
-    left: -2rem;
-    top: -2rem;
+    left: -1rem;
+    top: 0;
+    display: block;
+    width: 2rem;
+    height: 2rem;
     font-size: 6rem;
-    color: rgb(1 255 112);
+    background: transparent url(/images/chat-message.svg) no-repeat;
   }
 
   .mark-down ul,
@@ -152,7 +154,6 @@ const { frontmatter } = Astro.props;
   }
 
   .mark-down p {
-    border-left: 2px solid rgb(40 116 252/50%);
     padding-left: 1rem;
   }
 
