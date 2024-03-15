@@ -11,6 +11,7 @@ tags: ['emprego']
 
 ## Concello de Santiago, 28-02-2024.
 
+
 O **Concello de Santiago** asinou hoxe o **V Pacto Local polo Emprego** con representantes da _Universidade_, a _Cámara de Comercio_, a _Asociación Empresarial do Tambre_, _Hostelería Compostela_, _Hostalaría.gal_, a _Plataforma polo Emprego_, e os sindicatos _UXT_ e _Comisións Obreiras_.
 
 
@@ -178,3 +179,5 @@ O documento, que está aliñado con outras estratexias como a Axenda Urbana 2030
 ## Vídeo da sinatura
 
 <video src="/videos/firma-pacto/firma.mp4" controls="" poster="/images/firma-pacto/asinantes.jpg">Tu navegador no admite el elemento <code>video mp4</code>.</video>
+
+Máis información en <cite><a href="http://santiagodecompostela.gal/hoxe/nova.php?id_nova=23129&lg=cas">santiagodecompostela.gal</a></cite>
