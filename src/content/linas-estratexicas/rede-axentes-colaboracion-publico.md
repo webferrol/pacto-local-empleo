@@ -6,6 +6,7 @@ email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'
 url: '/images/emprego-redes.webp'
 author: 'Emprego. Santiago de Compostela'
+canonical: 'https://pactoempregosantiago.org/linas-estratexicas/rede-axentes-colaboracion-publico/'
 tags: ['educación', 'igualdade de xénero']
 ---
 

@@ -4,6 +4,7 @@ pubDate: 2024-02-23
 description: 'Esta liña estratéxica pretende desenvolver novas vías de colaboración co Servizo Público de Emprego de Galicia, que permitan impulsar, en Santiago, un Plan integral de emprego.'
 email: '@'
 ogImage: 'https://webferrol.netlify.app/javascript.png'
+canonical: 'https://pactoempregosantiago.org/linas-estratexicas/apoiar-persoas-emprego/'
 url: '/images/emprego-apoio.webp'
 author: 'Emprego. Santiago de Compostela'
 tags: ['emprego']

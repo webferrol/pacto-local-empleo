@@ -5,6 +5,7 @@ description: 'Liña estratéxica que prentende fortalecer a economía local e ce
 email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'
 url: '/images/emprego-transicion.webp'
+canonical: 'https://pactoempregosantiago.org/linas-estratexicas/impulsar-desenvolvemento-economico-emprego/'
 author: 'Emprego. Santiago de Compostela'
 tags: ['emprego']
 ---

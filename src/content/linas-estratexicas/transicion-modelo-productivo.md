@@ -6,6 +6,7 @@ email: 'xurxo@webferrol.com'
 ogImage: 'https://webferrol.netlify.app/javascript.png'
 url: '/images/emprego-desenvolvemento.webp'
 author: 'Emprego. Santiago de Compostela'
+canonical: 'https://pactoempregosantiago.org/linas-estratexicas/transicion-modelo-productivo/'
 tags: ['emprego']
 ---
 

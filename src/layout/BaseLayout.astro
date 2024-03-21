@@ -8,9 +8,11 @@ interface Props {
 	title?: string | number;
 	description?: string;
 	ogImage?: string;
+	canonical?: string;
 }
 
 const {
+	canonical = "https://pactoempregosantiago.org/",
 	title = "V Pacto Local polo Emprego 2024-2027",
 	description = "O V Pacto Local polo Emprego 2024-2027 é un compromiso activo do departamento de emprego do concello de santiago de compostela, por facer do emprego un elemento para a efectiva integración e inclusión social da cidadanía.",
 	ogImage,
@@ -26,6 +28,7 @@ const {
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content={ogImage ?? "logo.svg"} />
 		<link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+		<link rel="canonical" href={canonical}>
 		<meta name="description" content={description} />
 		<title>{title}</title>
 		<ViewTransitions />
