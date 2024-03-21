@@ -10,18 +10,24 @@ interface Props {
   description?: string;
   ogImage?: string;
   frontmatter: any;
+  canonical?: string;
 }
 
 const {
-  title = "V Pacto Local polo Emprego 2024-2027",
-  description = "O V Pacto Local polo Emprego 2024-2027 é un compromiso activo do departamento de emprego do concello de santiago de compostela, por facer do emprego un elemento para a efectiva integración e inclusión social da cidadanía.",
-  ogImage,
+  frontmatter: { 
+   canonical = 'https://santiagodecompostela.gal/',
+   author = 'Concello de Santiago',
+   description = 'O V Pacto Local polo Emprego 2024-2027 é un compromiso activo do departamento de emprego do concello de santiago de compostela, por facer do emprego un elemento para a efectiva integración e inclusión social da cidadanía.',
+   email,
+   ogImage,
+   pubDate,
+   title = 'V Pacto Local polo Emprego 2024-2027' },
 } = Astro.props;
 
 import Footer from "@components/sections/Footer.astro";
 import Header from "@components/sections/HeaderBlog.astro";
 
-const { frontmatter } = Astro.props;
+
 ---
 
 <html lang="es">
@@ -32,8 +38,9 @@ const { frontmatter } = Astro.props;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:image" content={ogImage ?? "logo.svg"} />
-    <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
     <meta name="description" content={description} />
+    <link rel="rel" href={canonical}>
+    <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
     <title>{title}</title>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"
